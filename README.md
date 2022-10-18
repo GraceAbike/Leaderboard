@@ -1,75 +1,123 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> Learning objectives
 
+- I Used semantic HTML tags.
+- I Applied best practices in HTML code.
+- Used CSS selectors correctly.
+- Used CSS box model.
+- Used Flexbox to place elements on the page.
+- Demonstrated ability to create UIs adaptable to different screen sizes using media queries.
+- Used GitHub Pages to deploy web pages.
+- Applied JavaScript best practices and language style guides in code.
+- Used JavaScript to manipulate DOM elements.
+- Used JavaScript events.
+- Used objects to store and access data.
+- Communicated technical concepts to other technical people.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
-## Live Demo (if available)
+## Additional Tools
 
-[Live Demo Link](https://livedemo.com)
+- WebHint
+- Stylelint
+- ESlint
+- Node Packet Manager
 
+## Live Demo
+
+[Here](hhttps://github.com/GraceAbike/Leaderboard.git) is the live demo.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy of this project up and running on your local machine follow the steps below.
 
 ### Prerequisites
 
+- Basic html, css and medium Javascript know how.
+- Git installation
+- A text editor 
+- A terminal
+- A web browser to view output e.g Google Chrome
+- An IDE e.g Visual studio code
+
 ### Setup
 
-### Install
+- Clone this repository or download the Zip folder:
+
+```
+git clone https://github.com/AdnanOlarmmi/leaderboard.git
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd <folder>``**
 
 ### Usage
 
-### Run tests
+- After Cloning this repo to your local machine
+- Open the `index.html` in your browser
+
+### Run Tests
+To track linter errors locally follow these steps:  
+
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint .
+```
 
 ### Deployment
 
-
-
+- I used GitHub Pages to deploy my website
+- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 ## Authors
 
-👤 **Author1**
+👤 **Grace Abike**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GraceAbike](https://github.com/GraceAbike)
+- Twitter: [@GraceAbike1](https://twitter.com/GraceAbike1)
+- LinkedIn: [Grace Abike](https://www.linkedin.com/in/grace-abike-02770522a/)
+- Angel: [Grace-Abike](https://angel.co/u/grace-abike)
+## Credits
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- The original design ideal from Microverse💕
+- Project from [Microverse](https://bit.ly/MicroverseTN) JavaScript module
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AdnanOlarmmi/leaderboard/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project and how we manage to build it!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](MIT.md) licensed
