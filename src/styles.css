@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Open sans', sans-serif;
+  font-weight: bold;
 }
 
 body {
@@ -32,7 +33,6 @@ main {
   display: flex;
   justify-content: space-between;
   flex-flow: column-reverse;
-  border: 2px solid #ccc;
   padding: 2em 2em;
   margin-top: 2rem;
   gap: 3rem;
@@ -74,6 +74,10 @@ div {
   width: fit-content;
   margin-left: auto;
   padding: 0.1rem 0.3rem;
+}
+
+.add-msg {
+  height: 2rem;
 }
 
 @media only screen and (min-width: 650px) {
