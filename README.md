@@ -2,6 +2,8 @@
 
 # Leaderboard
 
+ - In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
+
 > Learning objectives
 
 - I Used semantic HTML tags.
@@ -16,6 +18,10 @@
 - Used JavaScript events.
 - Used objects to store and access data.
 - Communicated technical concepts to other technical people.
+- Send and receive data from an API.
+- Use API documentation.
+- Identify if an API is RESTful or not.
+- Understand how to use medium-fidelity wireframes to create a UI.
 
 ## Built With
 
@@ -65,6 +71,7 @@ git clone https://github.com/AdnanOlarmmi/leaderboard.git
 - Open the `index.html` in your browser
 
 ### Run Tests
+
 To track linter errors locally follow these steps:  
 
 Download all the dependencies run:

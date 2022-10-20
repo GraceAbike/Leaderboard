@@ -8,14 +8,25 @@
   padding: 0;
   margin: 0;
   font-family: 'Open sans', sans-serif;
+  font-weight: bold;
 }
 
 body {
   padding: 1rem;
+  background: #05026d;
 }
 
 header {
   font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+  animation: rotateZ 5s;
+}
+
+@keyframes rotateZ {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .flex-row {
@@ -30,23 +41,35 @@ header {
 
 main {
   display: flex;
-  justify-content: space-between;
   flex-flow: column-reverse;
-  border: 2px solid #ccc;
-  padding: 2em 2em;
+  justify-content: space-between;
   margin-top: 2rem;
+  padding: 2em 2em;
   gap: 3rem;
+  border-radius: 5px;
+  overflow: hidden;
+  color: whitesmoke;
 }
 
 .recent-scores {
   width: 80vw;
-  gap: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0.05rem 0.05rem 1rem rgb(255, 255, 255);
+  background: linear-gradient(to right, hsl(240deg 2% 10% / 15%) 0%, #ff4272 100%);
+}
+
+.scores-heading {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  align-items: center;
 }
 
 ul {
-  border: 3px solid #000;
   list-style: none;
-  margin-top: 1rem;
+  background-color: red;
+  color: white;
 }
 
 li {
@@ -54,7 +77,30 @@ li {
 }
 
 li:nth-child(even) {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(242, 23, 23);
+}
+
+.player-index {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  color: red;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.player-scores {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.name {
+  flex-grow: 1;
 }
 
 form {
@@ -63,17 +109,63 @@ form {
   gap: 1rem;
 }
 
+input {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+input:active {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
 div {
   border: none;
   gap: 1rem;
 }
 
+div.flex-column {
+  display: flex;
+  box-shadow: 0.05rem 0.05rem 1rem rgb(255 255 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 2, 32);
+  list-style: none;
+  gap: 15px;
+  border-radius: 16px;
+  padding: 15px 0;
+  margin: 0;
+}
+
 .button {
-  box-shadow: 3px 3px 3px #000;
-  cursor: pointer;
   width: fit-content;
   margin-left: auto;
-  padding: 0.1rem 0.3rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(244, 237, 237);
+  cursor: pointer;
+  background: linear-gradient(to right, #ffb369 0%, #ff4272 100%);
+  border-radius: 200px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.button:active {
+  box-shadow: 0.05rem 0.05rem 0.5rem rgb(240, 240, 240);
+  scale: 0.95;
+}
+
+.add-msg {
+  height: 2rem;
 }
 
 @media only screen and (min-width: 650px) {
