@@ -2,7 +2,7 @@
 
 # Leaderboard
 
- In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
+ - In this activity you I continued working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
 
 > Learning objectives
 
@@ -21,6 +21,7 @@
 - Send and receive data from an API.
 - Use API documentation.
 - Identify if an API is RESTful or not.
+- Understand how to use medium-fidelity wireframes to create a UI.
 
 ## Built With
 
